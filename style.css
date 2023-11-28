@@ -104,8 +104,9 @@
 
 @media (max-width: 650px) {
     .loan-calculator .right{
-        width: 80%;
-        height: 400px;
+        width: 100%;
+        justify-items: center;
+        padding-bottom: 20px;
     } 
 
 }
