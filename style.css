@@ -14,7 +14,7 @@
 }
 
 .loan-calculator .top {
-    background-color: #14213d;
+    background-color: #5b84b1ff;
     color: #fff;
     padding: 32px;
 }
@@ -69,7 +69,7 @@
 .loan-calculator .calculate-btn{
     width: 200px;
     height: 50px;
-    background-color: #e63946;
+    background-color: #fc766aff;
     color: #fff;
     border: none;
     padding: 8px 32px;
@@ -78,6 +78,9 @@
     font-weight: 1000;
     cursor: pointer;
     margin: 24px 0;
+}
+.calculate-btn:hover{
+    background-color: red;
 }
 
 .loan-calculator .right{

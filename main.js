@@ -25,7 +25,7 @@ const ctx = document.getElementById('myChart').getContext("2d");
     datasets: [{   
       label: '$',
       data: [totalInterestPayableValue, loanAmount],
-      backgroundColor:["#e63946", "#14213d"],
+      backgroundColor:["#fc766aff", "#5b84b1ff"],
       borderWidth: 1
     },
    ],
