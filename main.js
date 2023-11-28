@@ -80,4 +80,14 @@ const init = () => {
 init();
 
 calculateBtn.addEventListener("click", init);
+
+
+
+
+// let = setInterval(myTimer ,1000);
+// function myTimer() { 
+//   const d = new Date(); 
+//   document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+// }
+
    

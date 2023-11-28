@@ -75,7 +75,7 @@
     padding: 8px 32px;
     border-radius: 5px;
     font: 18px;
-    font-weight: 900;
+    font-weight: 1000;
     cursor: pointer;
     margin: 24px 0;
 }
@@ -86,7 +86,7 @@
 
 @media (max-width: 650px) {
     .loan-calculator{
-        width: 90%;
+        width: 95%;
         max-width: 500PX;
     }
 
@@ -110,5 +110,11 @@
     } 
 
 }
+
+.loan-calculator .demo
+.value::before{
+    content: "$";
+  
+} 
 
 
